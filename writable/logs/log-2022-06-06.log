@@ -1,0 +1,170 @@
+CRITICAL - 2022-06-06 00:11:51 --> Attempt to read property "email" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\settings\profile.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin/settings/...', Array, true)
+#4 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Settings.php(93): view('admin/settings/...', Array)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Settings->profile()
+#6 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Settings))
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-06-06 00:22:09 --> Attempt to read property "profile_picture" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Helpers\global_helper.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin/orders/or...', Array, true)
+#6 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Orders.php(31): view('admin/orders/or...', Array)
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Orders->index()
+#8 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Orders))
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-06 01:00:47 --> Attempt to read property "profile_picture" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Helpers\global_helper.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin\\overview', Array, true)
+#6 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin.php(38): view('admin\\overview', Array)
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-06 01:03:15 --> Attempt to read property "profile_picture" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Helpers\global_helper.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin/orders/or...', Array, true)
+#6 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Orders.php(31): view('admin/orders/or...', Array)
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Orders->index()
+#8 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Orders))
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-06 01:03:33 --> Attempt to read property "profile_picture" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Helpers\global_helper.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin\\overview', Array, true)
+#6 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin.php(38): view('admin\\overview', Array)
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin->index()
+#8 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-06 01:44:04 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:44:16 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:44:54 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:46:01 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:46:14 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:51:59 --> Undefined variable $status
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->verify()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 01:55:13 --> Attempt to read property "profile_picture" on null
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Helpers\global_helper.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\tokoku-kel4fix\app\Views\admin\header.php(162): get_admin_image()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\tokoku-kel4fix\system\View\View.php(226): CodeIgniter\View\View->render('admin\\header', Array, true)
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Common.php(1089): CodeIgniter\View\View->render('admin/payments/...', Array, true)
+#6 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Admin_Payments.php(53): view('admin/payments/...', Array)
+#7 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Admin_Payments->view('11')
+#8 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin_Payments))
+#9 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-06-06 05:58:21 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Shop.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Shop->checkout()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 05:58:53 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Shop.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Shop->checkout()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 05:58:57 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Shop.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Shop->checkout()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 05:59:49 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Shop.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Shop->checkout()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-06-06 05:59:53 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\tokoku-kel4fix\app\Controllers\Shop.php(82): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 82)
+#1 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(832): App\Controllers\Shop->checkout()
+#2 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Shop))
+#3 C:\xampp\htdocs\tokoku-kel4fix\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\tokoku-kel4fix\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\tokoku-kel4fix\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
